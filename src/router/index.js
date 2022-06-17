@@ -11,7 +11,7 @@ if(!window.VueRouter){
 const router = new VueRouter({
   // 配置
   routes,
-  mode: "history", //mode默认为hash
+  mode: "hash", //mode默认为hash
 });
 router.afterEach((to, from) => {
   if (to.meta.title) {

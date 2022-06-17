@@ -7,6 +7,7 @@ module.exports = {
             }
         }
     },
+    publicPath: "/blog-front-desk/"
     // configureWebpack: require("./webpack.config")
 }
 
