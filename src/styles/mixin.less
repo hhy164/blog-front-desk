@@ -1,0 +1,15 @@
+.self-center(@pos:absolute){
+    // 设置了传参,比如绝对定位居中和固定定位居中
+    position: @pos;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+.self-fill(@pos:absolute){
+    // 充满父容器
+    position:@pos;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+}
